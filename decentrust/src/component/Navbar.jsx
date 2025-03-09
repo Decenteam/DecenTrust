@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="hidden md:flex items-center space-x-8">
         <a href="/" className="hover:text-indigo-400 transition-colors text-gray-400">信託管理</a>
         <a href="add" className="hover:text-indigo-400 transition-colors text-gray-400">創建</a>
-        <a href="#" className="hover:text-indigo-400 transition-colors text-gray-400">投資組合</a>
+        <a href="portfolio" className="hover:text-indigo-400 transition-colors text-gray-400">投資組合</a>
         <a href="#" className="hover:text-indigo-400 transition-colors text-gray-400">文檔</a>
       </div>
       
