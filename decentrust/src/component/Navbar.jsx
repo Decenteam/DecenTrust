@@ -1,6 +1,6 @@
 import React from 'react';
 import { Shield, Menu, User, Bell } from 'lucide-react';
-
+import ConnetWalletBtn from './connetWalletBTN';
 const Navbar = () => {
   return (
     <nav className="border-b border-gray-700 bg-gray-900 backdrop-blur-md bg-opacity-90 px-6 py-4 flex items-center justify-between sticky top-0 z-50">
@@ -23,6 +23,12 @@ const Navbar = () => {
         </div>
         <Menu className="h-5 w-5 md:hidden cursor-pointer" />
       </div>
+      <div className="relative group">
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur opacity-60 group-hover:opacity-100 transition duration-300"></div>
+            <div className="relative">
+              <ConnetWalletBtn />
+            </div>
+          </div>
     </nav>
   );
 };

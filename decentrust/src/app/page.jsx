@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from '../component/Navbar';
 import TrustDashboard from '../component/TrustDashboard';
 import ChatPanel from '../component/ChatPanel'
+
 const App = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white font-sans">
